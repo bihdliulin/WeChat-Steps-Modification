@@ -5,7 +5,7 @@ name: Run Your Python Script
 #     branches:
 #       - main
 #   schedule:
-#     - cron: '5 5 * * *'  # 在UTC时间上午12点47分运行
+#     - cron: '25 5 * * *'  # 在UTC+8时间上午13点25分运行
 
 on:
   workflow_dispatch:  # 手动触发
